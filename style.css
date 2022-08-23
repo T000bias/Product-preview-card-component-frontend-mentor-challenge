@@ -1,0 +1,110 @@
+/* 
+
+Style Guide 
+
+  ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+
+
+*/
+  
+
+/* Fraunces Font */
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Mulish:wght@400;700&family=Outfit:wght@300;400;600;700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+/* Montserrat Font */
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Mulish:wght@400;700&family=Outfit:wght@300;400;600;700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap');
+
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-size: 14px;
+  background-color: hsl(30,38%,92%);
+}
+
+.container {
+  width: 90vw;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+
+  .sub-container-1 {
+  }
+
+  .sub-container-2 {
+    margin: 30px;
+  }
+
+section {
+  display: flex;
+}
+
+button {
+  margin-top: 10px;
+  color: white;
+  display: block;
+  background-color: rgb(4, 155, 4);
+}
+
+  button:active {
+    background-color: rgba(6, 78, 6, 0.87);
+  }
+
+sup {
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.heading {
+  letter-spacing: 5px;
+}
+
+h1 {
+  padding-right: 40px;
+}
+
